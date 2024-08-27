@@ -1,0 +1,17 @@
+<svg width="98" height="130" viewBox="0 0 98 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8306_123668)">
+<path d="M56.1095 1.44232C78.4983 1.44232 96.6481 30.2209 96.6481 65.7212C96.6481 101.221 78.4983 130 56.1095 130H42.9109L42.9109 1.44232H56.1095Z" fill="#282828"/>
+<path d="M42.4824 130H42.9109M42.9109 130H56.1095C78.4983 130 96.6481 101.221 96.6481 65.7212C96.6481 30.2209 78.4983 1.44232 56.1095 1.44232H42.9109L42.9109 130Z" stroke="#282828" stroke-width="0.866409"/>
+<ellipse rx="40.5385" ry="64.2788" transform="matrix(1 0 0 -1 41.5385 65.7212)" fill="#DFFF76"/>
+<ellipse rx="40.5385" ry="64.2788" transform="matrix(1 0 0 -1 41.5385 65.7212)" fill="#DFFF76"/>
+<ellipse rx="40.5385" ry="64.2788" transform="matrix(1 0 0 -1 41.5385 65.7212)" stroke="#282828" stroke-width="2"/>
+<ellipse rx="27.5" ry="47.5" transform="matrix(1 0 0 -1 41.5 65.5)" fill="#DFFF76"/>
+<ellipse rx="27.5" ry="47.5" transform="matrix(1 0 0 -1 41.5 65.5)" fill="#DFFF76"/>
+<ellipse rx="27.5" ry="47.5" transform="matrix(1 0 0 -1 41.5 65.5)" stroke="#282828" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_8306_123668">
+<rect width="98" height="130" fill="white" transform="matrix(1 0 0 -1 0 130)"/>
+</clipPath>
+</defs>
+</svg>

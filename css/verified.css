@@ -1,0 +1,732 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-image:linear-gradient(#E9F8F7 70%,white);                                                                                                                                                                                                                                              
+   
+   padding: 1rem;
+   padding-bottom: 3rem;
+    width: 100%;
+    top: 0;
+    z-index:  1;
+  }
+  body{
+    background-color:white;
+    width: 100%;
+  }
+  .main{
+    background-color: white;
+   
+  }
+
+  .menus{
+    float: right;
+    filter: invert(20);
+    margin-top: 0.5rem;
+    background-color:black;
+    box-shadow: 0 0 2px lightgray;
+    padding: 0.55rem;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+  }
+ 
+  nav ul li a{
+    color:white; 
+    gap: 25px;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    .logo{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        margin-top: -0.7rem;
+    }
+    .vertical-line::before{
+        position: relative;
+        top: 0;
+        border: 9px salmon;
+        height: 23rem;
+        width: 180rem;
+        content: "";
+       
+    }
+    #checkbtn{
+        font-size: 20px;
+        float: right;
+        margin-top: 2rem;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 90px;
+        cursor: pointer;
+        display:none;
+        align-self:center;
+        color: white;
+    }
+   
+   
+   
+    #check{
+        display:none;
+    }
+
+
+    .menu-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 35px;
+        color: black;
+        cursor: pointer;
+        float: right;
+        background-color:white;
+        box-shadow: 0 0 2px lightgray;
+        padding: 0.4rem;
+        height: fit-content;
+        margin-top: 1rem;
+        border-radius: 0.7rem;
+        width: fit-content;
+    }
+
+    .logo-flex{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.3rem;
+    }
+
+    #logo{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 10px;
+    }
+
+    header{
+        background-color: #E9F8F7;
+        width: 100%;
+    }
+
+    .header{
+        margin-top: 3rem;
+    }
+
+    .small-hero{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 28px;
+        color: black;
+    }
+    .hero{
+        font-size: 38px;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 600;
+        margin-top: 2.5rem;
+    }
+    p{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }
+    .p-btn{
+        margin-top: 0.3rem;
+        font-weight: 700;
+        font-family:"AkkuratMonoRegular",sans-serif;
+    }
+    .install{
+        margin-left: -1rem;
+        float: left;
+    }
+    #a{
+        text-decoration: none;
+    }
+    button{
+        display: flex;
+         width: 100%;
+         width: 15rem;
+         margin: auto;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         background-color: black;
+         padding: 0.5rem;
+         color: white;
+         border-radius: 0.4rem;
+         border: none;
+         margin-top: 2rem;
+        
+     }
+     .verify{
+        text-align: center;
+       
+     }
+     .center-text{
+        text-align: center;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        margin-top: 2rem;
+     }
+     .classes{
+        background-color:white;
+        padding: 0.5rem;
+        border: 1px solid lightgray;
+        min-width:900px;
+       width: 50%;
+      
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        margin: auto;
+         display: grid;
+        grid-template-columns: 1fr 1fr 1fr ; 
+         box-shadow:  0 2px 0 rgba(0, 0, 0,  0.05);
+        color:  lightgrey ; 
+        text-align: center;
+        place-items: Center;
+        
+     }
+     .classes:hover{
+        box-shadow:  0px 0 13px rgba(0, 0, blue,  alpha);
+        color: light grey;
+     }
+     .number-of-varified-ASAs{
+       display: none;
+        padding: 1rem;
+        overflow-y: auto;
+
+     }
+     .asas-class{
+       display: flex;
+    
+     }
+     .flex{
+        display: flex;
+        row-gap: 4rem;
+        gap: 1rem;
+     }
+     .tokens {
+        color:black;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: 0.2rem; 
+        font-family:"AkkuratMonoRegular",sans-serif;
+     }
+
+     .text-center{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+     }
+     
+     .Tokens{
+        margin-top: 0.2rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 18px;
+        color: black;
+     }
+
+     ::-webkit-scrollbar{
+       
+     }
+
+     
+     .line-break{
+        margin-top: 2rem;
+        
+     }
+
+     .num{
+        margin-top: 2rem;
+        margin-left: -4rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+      
+      
+     }
+     .num1{
+        margin-top: 2rem;
+        margin-left: -5.5rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+      
+      
+     }
+     .num2{
+        margin-top: 2rem;
+        margin-left: -6rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+      
+      
+     }
+     .num3{
+        margin-top: 2rem;
+        margin-left: -7.5rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+      
+      
+     }
+     .num4{
+        margin-top: 2rem;
+        margin-left: -5rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+      
+      
+     }
+
+     .imbg{
+        object-fit: contain;
+      display: none;
+      
+     }
+
+     .verified-tag,#verified-tag{
+        background-color: #e9edec;
+        color: #5286FE;
+        width:6rem;
+       padding: 0.3rem;
+        border-radius: 0.5rem;
+        margin-right: -7rem;
+        font-family:"AkkuratMonoRegular",sans-serif;
+     }
+     #verified-tag{
+        background: none;
+        color: grey;
+        font-family:"AkkuratMonoRegular",sans-serif;
+     }
+
+     .crypto-logo{
+        margin-left: -9rem;
+     }
+
+     
+     .headers1{
+        margin-left: -9rem;
+        color: grey;
+        font-family:"AkkuratMonoRegular",sans-serif;
+     }
+     .headers2{
+        color: grey;
+     }
+     .headers3{
+        padding-right: -29rem;
+        float: right;
+        font-family:"AkkuratMonoRegular",sans-serif;
+     }
+
+     #classes{
+        background: none;
+        border: none;
+        box-shadow: none;
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+     }
+
+     #names{
+        background-color: lightgray;
+        color: #000;
+        padding: 1rem;
+        border-radius: 50%;
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-weight: 700;
+     }
+
+     .journey{
+        padding: 1rem;
+        margin-top: 5rem;
+     }
+
+     .cta{
+       background-color: #F6F6F7;
+       color: #000;
+     }
+     #w{
+        min-width: 100%; 
+     }
+        
+     .start{
+        font-family:"AkkuratMonoRegular",sans-serif;
+        font-size: 25px;
+       
+        margin-top: 1rem;
+     }
+     hr {
+      
+        width: 90%;
+        margin: auto;  
+      }
+      .hr{
+          margin-top: 3rem;
+      }
+  
+     ol,.link{
+          color: grey;
+          text-decoration: none;
+          font-family:"AkkuratMonoRegular",sans-serif; 
+          margin-top: 2rem;
+  
+      }
+  
+      .ii{
+        filter: invert(22);
+        color: lightgray;
+        opacity: 0.6;
+        z-index: -1;
+        position: absolute;
+      }
+      footer{
+          width: 90%;
+          margin: auto;
+          margin-top: 3rem;
+      }
+      .ol-header{
+          font-family:"AkkuratMonoRegular",sans-serif; 
+          margin-top: 3rem;
+      }
+  
+      .icons{
+          display: grid;
+         grid-template-rows: 1fr 1fr;
+        display: flex;
+        gap: 1rem;
+        margin-left: -1rem;
+          margin-top: 2rem;
+      }
+      .every-heade{
+        font-family:"AkkuratMonoRegular",sans-serif; 
+    }
+     
+    @media (width >= 600px){
+       header{
+        padding: 1rem;
+        }
+       .hero{
+        font-size: 45px;
+       }
+       
+    }
+    @media (width >= 700px){
+       .header{
+       width: 70%;
+       margin: auto;
+        }
+        
+ p{
+            width: 500px;
+            font-size: 18px;
+        }
+     
+        .classes{
+            background-color:white;
+            padding: 0.05rem;
+            border: 1px solid lightgray;
+            max-width:600px;
+         
+          
+            border-radius: 0.5rem;
+            margin-top: 2rem;
+            margin: auto;
+             display: grid;
+            grid-template-columns: 1fr 1fr 1fr ; 
+             box-shadow:  0 2px 0 rgba(0, 0, 0,  0.05);
+            color:  lightgrey ; 
+            text-align: center;
+            place-items: Center;
+            
+         }
+         .classes:hover{
+            box-shadow:  0px 0 13px rgba(0, 0, blue,  alpha);
+            color: light grey;
+         }
+         .number-of-varified-ASAs{
+           
+           
+         }
+         .asas-class{
+           display: flex;
+        
+         }
+         .flex{
+            display: flex;
+            
+         }
+         .tokens {
+            color:black;
+            font-weight: 700;
+            font-size: 17px;
+            margin-top: 0.2rem; 
+            font-family:"AkkuratMonoRegular",sans-serif;
+         }
+         
+         .Tokens{
+            margin-top: 0.2rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            font-size: 18px;
+            color: black;
+         }
+    
+         ::-webkit-scrollbar{
+           display: none;
+         }
+    
+         
+         .line-break{
+            margin-top: 2rem;
+            
+         }
+    
+         .num{
+            margin-top: 2rem;
+            margin-left: -4rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            color: grey;
+            font-size: 12px;
+            position: relative;
+          
+          
+         }
+         .num1{
+            margin-top: 2rem;
+            margin-left: -5.5rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            color: grey;
+            font-size: 12px;
+            position: relative;
+          
+          
+         }
+         .num2{
+            margin-top: 2rem;
+            margin-left: -6rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            color: grey;
+            font-size: 12px;
+            position: relative;
+          
+          
+         }
+         .num3{
+            margin-top: 2rem;
+            margin-left: -7.5rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            color: grey;
+            font-size: 12px;
+            position: relative;
+          
+          
+         }
+         .num4{
+            margin-top: 2rem;
+            margin-left: -5rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            color: grey;
+            font-size: 12px;
+            position: relative;
+          
+          
+         }
+    
+         .imbg{
+            object-fit: contain;
+          display: none;
+          
+         }
+    
+         .verified-tag,#verified-tag{
+            background-color: #e9edec;
+            color: #5286FE;
+            width:6rem;
+           padding: 0.3rem;
+            border-radius: 0.5rem;
+            margin-right: rem;
+            font-family:"AkkuratMonoRegular",sans-serif;
+         }
+         #verified-tag{
+            background: none;
+            color: grey;
+
+            font-family:"AkkuratMonoRegular",sans-serif;
+         }
+         .verified-tag{
+            margin-left: -40rem;
+         }
+    
+         .crypto-logo{
+            margin-left: rem;
+         }
+    
+         
+         .headers1{
+            margin-left: -rem;
+            color: grey;
+            font-family:"AkkuratMonoRegular",sans-serif;
+         }
+         .headers2{
+            color: grey;
+         }
+         .headers3{
+            padding-right: -29rem;
+            float: right;
+            font-family:"AkkuratMonoRegular",sans-serif;
+         }
+    
+         #classes{
+            background: none;
+            border: none;
+            box-shadow: none;
+            margin-top: 2rem;
+            margin-bottom: -1rem;
+         }
+    
+         #names{
+            background-color: lightgray;
+            color: #000;
+            padding: 1rem;
+            border-radius: 50%;
+            font-family:"AkkuratMonoRegular",sans-serif;
+            font-weight: 700;
+         }
+    
+         .journey{
+            padding: 1rem;
+            margin-top: 5rem;
+         }
+    
+         .cta{
+            background-color: rgb(172, 171, 171);
+         }
+         #w{
+            min-width: 100%;
+         }
+         .tokens{
+            margin-right: -20rem;
+         }
+
+      
+    }
+    @media (width >= 900px){
+       .header{
+       width: 60%;
+       margin: auto;
+        }
+ p{
+            width: 500px;
+        }
+       
+       
+    }
+     @media (max-width:1100px){
+        .checkbtn{
+            display: block;
+           
+        }
+
+        
+       
+    ul{
+    
+        
+    /*  position:absolute;
+     width: 100%;
+     height: 100vh;
+     background:black;
+     
+     text-align: right;
+    
+     transition:  all 0.5s; */
+    }
+    
+    ul{
+        position:fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(46, 45, 45);
+        right:0;
+        left: -100%;
+        top: 0rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-align:start;
+         background-color:white;
+         font-family: 'Epilogue', sans-serif;
+         transition: all 0.5s ;
+      
+         
+        }
+    
+        .menu-items{
+            overflow: scroll;
+      scroll-snap-align: y mandatory;
+      scroll-snap-type: mandatory;
+            
+        }
+        .menu-items::-webkit-scrollbar{
+            display: none;
+        }
+    
+    .span{
+        margin-top: 3rem;
+        font-size: 12px;
+        color: grey;
+        font-weight: 700;
+        margin-left: 3rem;
+    }
+    
+    
+    nav ul li a{
+        display:block;
+        margin: 35px 0px;
+        line-height: 1px;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style:none;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+
+    .hr1{
+        margin-top: 3rem;
+    }
+
+    .ul-top{
+        margin-top: 6rem;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    .btn{
+        width: 100%;
+        display: flex;
+    }
+    ul li a{
+        font-size:16px;
+        
+    }
+    
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+    }
+    
+
+    
+    
+   
